@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Widen GitHub Tree",
+  "version": "1.0.0",
+  "description": "Widens the GitHub tree screen to make it more readable",
+
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "matches": ["https://github.com/*"]
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
