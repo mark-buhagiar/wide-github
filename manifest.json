@@ -1,7 +1,6 @@
 {
-  "manifest_version": 2,
-
-  "name": "Widen GitHub Tree",
+  "manifest_version": 3,
+  "name": "Wide GitHub",
   "version": "1.0.0",
   "description": "Widens the GitHub tree screen to make it more readable",
 
