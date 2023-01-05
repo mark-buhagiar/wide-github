@@ -1,0 +1,15 @@
+.ActionList-item-label--truncate {
+  overflow: unset !important;
+  text-overflow: unset !important;
+  white-space: unset !important;
+}
+
+.Layout {
+  grid-template-columns: auto 0 auto !important;
+}
+
+.Layout-sidebar {
+  width: unset !important;
+  max-width: 30vw !important;
+  min-width: 300px !important;
+}

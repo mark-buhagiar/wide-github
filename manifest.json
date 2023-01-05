@@ -1,12 +1,17 @@
 {
-  "manifest_version": 3,
-  "name": "Wide GitHub",
+  "manifest_version": 2,
+
+  "name": "Widen GitHub Tree",
   "version": "1.0.0",
   "description": "Widens the GitHub tree screen to make it more readable",
 
   "content_scripts": [
     {
-      "css": ["styles.css"],
+      "css": ["pr_styles.css"],
+      "matches": ["https://github.com/*pull*/files*"]
+    },
+    {
+      "css": ["global_styles.css"],
       "matches": ["https://github.com/*"]
     }
   ],
