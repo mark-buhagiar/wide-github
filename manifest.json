@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Widen GitHub Tree",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Widens the GitHub tree screen to make it more readable",
 
   "content_scripts": [
