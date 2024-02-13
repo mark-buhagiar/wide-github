@@ -1,3 +1,52 @@
 .container-xl {
   max-width: unset !important;
 }
+
+div[data-selector="repos-split-pane-content"] {
+  max-width: unset !important;
+}
+
+.react-repos-overview-margin{
+  margin-right: unset !important;
+}
+
+div:has(div[data-selector="repos-split-pane-content"]) {
+  max-width: unset !important;
+}
+
+/* --------- STUFF FOR PRs AND TREE VIEW ----------- */
+
+.ActionList-item-label--truncate {
+  overflow: unset !important;
+  text-overflow: unset !important;
+  white-space: unset !important;
+}
+
+.Layout {
+  grid-template-columns: auto 0 auto !important;
+}
+
+.Layout-sidebar {
+  width: unset !important;
+  max-width: 30vw !important;
+  min-width: 300px !important;
+}
+
+div:has(div > #repos-file-tree) {
+  width:  unset !important;
+}
+
+div#repos-file-tree {
+  width: auto !important;
+  max-width: 30vw !important;
+  min-width: 300px !important;
+}
+
+span.PRIVATE_TreeView-item-content-text {
+  white-space: unset !important;
+  text-overflow: unset !important;
+  overflow: unset !important;
+  display: block !important;
+  width: auto !important;
+  overflow-wrap: anywhere;
+}
